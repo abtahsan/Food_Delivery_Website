@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Delivery - Team</title>
+  <link href="/css/styles.css" rel="stylesheet">
+  <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans">
+  <!-- Navbar -->
+  <nav class="navbar bg-base-100 shadow-lg">
+    <div class="container mx-auto flex justify-between items-center p-4">
+      <a href="/index.html" class="text-2xl font-bold">Foodie</a>
+      <div class="flex items-center space-x-4">
+        <a href="/index.html" class="hover:text-primary">Home</a>
+        <a href="/about.html" class="hover:text-primary">About Us</a>
+        <a href="/services.html" class="hover:text-primary">Services</a>
+        <a href="/become-partner.html" class="hover:text-primary">Become Partner</a>
+        <a href="/team.html" class="hover:text-primary">Team</a>
+        <a href="/contact.html" class="hover:text-primary">Contact</a>
+        <button class="btn btn-primary">Cart (0)</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Team Header -->
+  <header class="bg-cover bg-center h-[500px] flex items-center" style="background-image: url('/public/images/team.jpg');">
+    <div class="container mx-auto text-center text-white">
+      <h1 class="text-5xl font-bold mb-4">Our Team</h1>
+      <p class="text-xl">Meet the passionate individuals behind Foodie.</p>
+    </div>
+  </header>
+
+
+  <!-- Team New content -->
+
+  <div class="hero bg-base-200 min-h-screen">
+    <div class="hero-content w-4/5 flex-col lg:flex-row-reverse">
+      <div class="text-center lg:text-left">
+        <h3 class="text-xl font-bold uppercase mb-2">Company Leader</h3>
+        <h1 class="text-5xl font-bold">Tahsan AB</h1>
+        <p class="py-6">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In faucibus metus purus, at interdum ex mattis in. In pellentesque quis lacus vitae scelerisque. Nulla vitae sodales odio. Fusce vitae fringilla urna. Nunc volutpat nulla a mollis euismod. Etiam volutpat, eros id sodales egestas, sem dui molestie enim, et viverra erat enim ut turpis.
+        </p>
+        <h3 class="text-xl font-bold mb-2">CEO of Foodie Company</h3>
+      </div>
+      <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+        <figure><img src="/public/images/company leader.jpeg" alt="Tahsan AB" class="w-full h-96  rounded-xl"></figure>
+      </div>
+    </div>
+  </div>
+
+  <!-- Team Content -->
+  <section class="container mx-auto my-16">
+    <h2 class="text-3xl font-bold text-center mb-8">The People Who Make It Happen</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <!-- Team Member 1 -->
+      <div class="card bg-base-100 shadow-xl p-6 text-center">
+        <img src="/public/images/Co founder.jpg" alt="Co-Founder Foodie" class="w-32 h-32 rounded-full mx-auto mb-4">
+        <h3 class="text-xl font-bold mb-2">Jane Cooper</h3>
+        <p class="text-gray-600">Co-Founder Foodie</p>
+      </div>
+      <!-- Team Member 2 -->
+      <div class="card bg-base-100 shadow-xl p-6 text-center">
+        <img src="/public/images/head of operation.jpg" alt="Head of Operations" class="w-32 h-32 rounded-full mx-auto mb-4">
+        <h3 class="text-xl font-bold mb-2">Cameron Williamson</h3>
+        <p class="text-gray-600">Head of Operations</p>
+      </div>
+      <!-- Team Member 3 -->
+      <div class="card bg-base-100 shadow-xl p-6 text-center">
+        <img src="/public/images/business manager.jpg" alt="Business Manager" class="w-32 h-32 rounded-full mx-auto mb-4">
+        <h3 class="text-xl font-bold mb-2">Jenny Wilson</h3>
+        <p class="text-gray-600">Business Manager</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-base-300 py-12">
+    <div class="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
+      <div>
+        <h3 class="text-xl font-bold">Foodie</h3>
+        <p>Fast, reliable, and delicious food delivery.</p>
+      </div>
+      <div>
+        <h3 class="text-xl font-bold">Payment Methods</h3>
+        <p>Credit Card, PayPal, Cash on Delivery</p>
+      </div>
+      <div>
+        <h3 class="text-xl font-bold">Follow Us</h3>
+        <div class="flex space-x-4">
+          <a href="#" class="hover:text-primary">Facebook</a>
+          <a href="#" class="hover:text-primary">Twitter</a>
+          <a href="#" class="hover:text-primary">Instagram</a>
+        </div>
+      </div>
+      <div>
+        <h3 class="text-xl font-bold">Legal</h3>
+        <a href="#" class="block hover:text-primary">Privacy Policy</a>
+        <a href="#" class="block hover:text-primary">Terms & Conditions</a>
+      </div>
+    </div>
+  </footer>
+  <script src="/js/script.js"></script>
+</body>
+</html>
